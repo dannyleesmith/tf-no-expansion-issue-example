@@ -8,8 +8,9 @@ terraform {
     }
   }
 }
+
 module "example" {
-  source = "./module_v3"
+  source = "./module_v1"
 
   length    = 3
   separator = "-"
